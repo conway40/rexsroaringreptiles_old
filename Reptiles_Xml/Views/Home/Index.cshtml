@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+	<h1>Rex's Roaring Reptiles</h1>
+</div>
+
+<div class="row">
+
+	<div class="col-md-6">
+		<h2>What We Are About</h2>
+		<p>
+			Here at Rex's Roaring Reptiles, we strive to provide reptilian lovers
+			with a new scaly, scary or slimy friend! We have a wide selection of reptiles to choose 
+			from, and we also sell all the supplies you will need for your new pet.
+		</p>
+	</div>
+
+	<div class="col-md-6">
+		<h2>How to Get Started</h2>
+		<p>
+			To view a list of the reptiles that we sell, click the button below.
+		</p>
+		<button type="button" onclick="location.href='@Url.Action("Index", "Reptile")'" class="btn">Reptiles List</button>
+	</div>
+
+</div>

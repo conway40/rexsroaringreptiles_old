@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Reptiles_Xml.Models.Reptile>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Rex's Reptiles List</h2>
+
+@using (Html.BeginForm())
+{
+	<div id="FilterSearch" class="form-horizontal">
+
+		<div class="form-group">
+			@Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2" })
+			@Html.TextBox("searchCriteria", null, new { @class = "form-control" })
+		</div>
+
+		<div class="form-group">
+			@Html.Label("Filter By Experience", htmlAttributes: new { @class = "control-label col-md-2" })
+			@Html.DropDownList("experienceFilter",
+                    new SelectList(@ViewBag.Levels),
+                    "All Experience Levels",
+                    new { @class = "form-control" })
+		</div>
+
+		<div class="form-group">
+			<input type="submit" value="Find Reptiles" class="btn col-md-2 col-md-offset-2" />
+			<input type="button" value="Reset Reptiles List" onclick="location.href='@Url.Action("Index", "Reptile")'" class="btn col-md-2 col-md-offset-2" />
+		</div>
+
+	</div>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Species).ToHtmlString(), "Index", new { sortOrder = "Species" })
+        </th>
+        <th>
+			@Html.ActionLink(@Html.DisplayNameFor(model => model.ExperienceLevel).ToHtmlString(), "Index", new { sortOrder = "ExperienceLevel" })
+        </th>
+        <th>
+			@Html.ActionLink(@Html.DisplayNameFor(model => model.Price).ToHtmlString(), "Index", new { sortOrder = "Price" })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Species)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExperienceLevel)
+        </td>
+        <td>
+            $@Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

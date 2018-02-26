@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Reptiles>
+  <Reptile>
+    <Id>1</Id>
+    <Species>Ball Python</Species>
+    <LifeSpan>20-30 years</LifeSpan>
+    <Environment>Temperate</Environment>
+    <ExperienceLevel>Intermediate</ExperienceLevel>
+    <Price>59.99</Price>
+  </Reptile>
+  
+  <Reptile>
+    <Id>2</Id>
+    <Species>Bearded Dragon</Species>
+    <LifeSpan>10 years</LifeSpan>
+    <Environment>Desert</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>74.99</Price>
+  </Reptile>
+  
+  <Reptile>
+    <Id>3</Id>
+    <Species>Leopard Gecko</Species>
+    <LifeSpan>15-20 years</LifeSpan>
+    <Environment>Desert</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>39.99</Price>
+  </Reptile>
+  
+  <Reptile>
+    <Id>4</Id>
+    <Species>Mississippi Map Turtle</Species>
+    <LifeSpan>15-25 years</LifeSpan>
+    <Environment>Semi-Aquatic</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>39.99</Price>
+  </Reptile>
+  
+  <Reptile>
+    <Id>5</Id>
+    <Species>African Sideneck Turtle</Species>
+    <LifeSpan>30 years</LifeSpan>
+    <Environment>Semi-Aquatic</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>39.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>6</Id>
+    <Species>African Dwarf Frog</Species>
+    <LifeSpan>5-10 years years</LifeSpan>
+    <Environment>Aquatic</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>3.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>7</Id>
+    <Species>Asian Forest Scorpion</Species>
+    <LifeSpan>5-8 years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Advanced</ExperienceLevel>
+    <Price>19.99</Price>
+  </Reptile>
+  
+  <Reptile>
+    <Id>8</Id>
+    <Species>Green Tree Frog</Species>
+    <LifeSpan>5-10 years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>9.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>9</Id>
+    <Species>Leopard Gecko</Species>
+    <LifeSpan>6-10 years</LifeSpan>
+    <Environment>Desert</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>29.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>10</Id>
+    <Species>Long-Tailed Lizard</Species>
+    <LifeSpan>5 years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>8.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>11</Id>
+    <Species>Eyelash Crested Gecko</Species>
+    <LifeSpan>15-20 years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>49.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>12</Id>
+    <Species>Chinese Water Dragon</Species>
+    <LifeSpan>15 years</LifeSpan>
+    <Environment>Semi-Aquatic</Environment>
+    <ExperienceLevel>Intermediate</ExperienceLevel>
+    <Price>39.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>13</Id>
+    <Species>Veiled Chameleon</Species>
+    <LifeSpan>5-7 years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Advanced</ExperienceLevel>
+    <Price>79.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>14</Id>
+    <Species>Corn Snake</Species>
+    <LifeSpan>20 years</LifeSpan>
+    <Environment>Desert</Environment>
+    <ExperienceLevel>Intermediate</ExperienceLevel>
+    <Price>69.99</Price>
+  </Reptile>
+
+  <Reptile>
+    <Id>15</Id>
+    <Species>Green Anole</Species>
+    <LifeSpan>7 Years</LifeSpan>
+    <Environment>Tropical</Environment>
+    <ExperienceLevel>Beginner</ExperienceLevel>
+    <Price>6.99</Price>
+  </Reptile>
+  
+</Reptiles>

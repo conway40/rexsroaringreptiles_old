@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Demo_Nmm_Xml.Models.Brewery>
+
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+
+    //
+    // cast the model as a PagedList to access pagination properties
+    //
+    var pagedList = (IPagedList)Model;
+}
+
+Page @(pagedList.PageCount < pagedList.PageNumber ? 0 : pagedList.PageNumber) of @pagedList.PageCount
+@Html.PagedListPager(pagedList, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter}))
+
+<h2>Northern Michigan Microbreweries</h2>
+
+@using (Html.BeginForm())
+{
+    <div id="FilterSearch" class="form-horizontal">
+
+        <div class="form-group">
+            @Html.Label("Search by Name", htmlAttributes: new { @class = "control-label col-md-2"})
+            @Html.TextBox("searchCriteria", null, new { @class = "form-control"})
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Filter By City", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DropDownList("cityFilter",
+                    new SelectList(@ViewBag.Cities),
+                    "All Cities",
+                    new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Find Brew Pubs" class="btn col-md-2 col-md-offset-2" />
+            <input type="button" value="Reset Brew Pub List" onclick="location.href='@Url.Action("Index", "Brewery")'" class="btn col-md-2 col-md-offset-2" />
+        </div>
+
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Name).ToHtmlString(), "Index", new { sortOrder = "Name"})
+        </th>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.City).ToHtmlString(), "Index", new { sortOrder = "City" })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.URL).ToString()
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.URL)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

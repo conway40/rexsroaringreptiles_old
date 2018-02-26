@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Breweries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Brewery>
+    <Id>1</Id>
+    <Name>Acoustic Tap Room</Name>
+    <Address>119 Maple St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 883-2012</Phone>
+    <URL>drinkacoustic.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>2</Id>
+    <Name>Beggars Brewery</Name>
+    <Address>4177 Village Park Dr. Suite C</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(555) 555-5555</Phone>
+    <URL>beggarsbrewery.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>3</Id>
+    <Name>Big Cat Brewing Company</Name>
+    <Address>8699 Good Harbor Tr</Address>
+    <City>Cedar</City>
+    <State>MI</State>
+    <Zip>49621</Zip>
+    <Phone>(231) 228-2282</Phone>
+    <URL>cedarrusticinn.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>4</Id>
+    <Name>Bravo Zulu Brewing</Name>
+    <Address>6060 US-31 North</Address>
+    <City>Williamsburg</City>
+    <State>MI</State>
+    <Zip>49690</Zip>
+    <Phone>(231) 943-1459</Phone>
+    <URL>bravozulubrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>5</Id>
+    <Name>Brewery Ferment</Name>
+    <Address>511 S. Union</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 735-8113</Phone>
+    <URL>breweryferment.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>6</Id>
+    <Name>Brewery Terra Firma</Name>
+    <Address>2951 Hartman Rd</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49685</Zip>
+    <Phone>(231) 929-1600</Phone>
+    <URL>breweryterrafirma.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>7</Id>
+    <Name>Hop Lot Brewing Co.</Name>
+    <Address>658 S. West Bay Shore Dr.</Address>
+    <City>Suttons Bay</City>
+    <State>MI</State>
+    <Zip>49682</Zip>
+    <Phone>(231) 866-4445</Phone>
+    <URL>hoplotbrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>8</Id>
+    <Name>Jolly Pumpkin Restaurant, Brewery &amp; Distillery</Name>
+    <Address>13512 Peninsula Dr.</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49686</Zip>
+    <Phone>(231) 223-4333</Phone>
+    <URL>jollypumpkin.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>9</Id>
+    <Name>Kilkenny's Irish Pub</Name>
+    <Address>400 W Front St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 941-7527</Phone>
+    <URL>kilkennyspub.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>11</Id>
+    <Name>Mackinaw Brewing Company</Name>
+    <Address>161 E. Front St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 933-1100</Phone>
+    <URL>mackinawbrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>12</Id>
+    <Name>Mission Table Tasting Room</Name>
+    <Address>13512 Peninsula Dr</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49686</Zip>
+    <Phone>(231) 223-4222</Phone>
+    <URL>missiontable.net</URL>
+  </Brewery>
+  <Brewery>
+    <Id>13</Id>
+    <Name>North Peak Brewing Company</Name>
+    <Address>400 W. Front St.</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 941-7325</Phone>
+    <URL>northpeak.net</URL>
+  </Brewery>
+  <Brewery>
+    <Id>14</Id>
+    <Name>Northport Brewing</Name>
+    <Address>112 W Naganoba St</Address>
+    <City>Northport</City>
+    <State>MI</State>
+    <Zip>49670</Zip>
+    <Phone>(231) 386-1101</Phone>
+    <URL>http://localbeerisbetter.com/</URL>
+  </Brewery>
+  <Brewery>
+    <Id>15</Id>
+    <Name>Rare Bird Brewery &amp; Taproom</Name>
+    <Address>229 Lake Avenue</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 943-2053</Phone>
+    <URL>rarebirdbrewpub.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>16</Id>
+    <Name>Right Brain Brewery</Name>
+    <Address>225 E. 16th St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 944-1239</Phone>
+    <URL>rightbrainbrewery.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>17</Id>
+    <Name>Seven Monks Taproom</Name>
+    <Address>128 S Union St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49686</Zip>
+    <Phone>(231) 421-8410</Phone>
+    <URL>7monkstap.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>18</Id>
+    <Name>Short's Brewing Company</Name>
+    <Address>121 N. BrIdge St</Address>
+    <City>Bellaire</City>
+    <State>MI</State>
+    <Zip>49615</Zip>
+    <Phone>(231) 498-2300</Phone>
+    <URL>shortsbrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>19</Id>
+    <Name>Stormcloud Brewing Company</Name>
+    <Address>303 Main St.</Address>
+    <City>Frankfort</City>
+    <State>MI</State>
+    <Zip>49635</Zip>
+    <Phone>(231) 352-0118</Phone>
+    <URL>stormcloudbrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>20</Id>
+    <Name>The Filling Station</Name>
+    <Address>642 Railroad Place</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49686</Zip>
+    <Phone>(231) 946-8168</Phone>
+    <URL>thefillingstationmicrobrewery.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>21</Id>
+    <Name>The RIdge Microbrewery and Restaurant</Name>
+    <Address>2511 N West Bayshore Dr</Address>
+    <City>Peshawbestown</City>
+    <State>MI</State>
+    <Zip>49682</Zip>
+    <Phone>(231)534-7290</Phone>
+    <URL>therIdgemicrobrew.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>10</Id>
+    <Name>Lake Bob Brewing Co.</Name>
+    <Address>6535 First St</Address>
+    <City>Lake Ann</City>
+    <State>MI</State>
+    <Zip>49650</Zip>
+    <Phone>(231) 640-2327</Phone>
+    <URL>lakeannbrewing.com</URL>
+  </Brewery>
+</Breweries>
