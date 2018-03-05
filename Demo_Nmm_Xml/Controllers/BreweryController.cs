@@ -52,7 +52,7 @@ namespace Demo_Nmm_Xml.Controllers
             //
             // set parameters and paginate the breweries list
             //
-            int pageSize = 5;
+            int pageSize = 50;
             int pageNumber = (page ?? 1);
             breweries = breweries.ToPagedList(pageNumber, pageSize);
 
@@ -100,7 +100,7 @@ namespace Demo_Nmm_Xml.Controllers
             //
             // set parameters and paginate the breweries list
             //
-            int pageSize = 5;
+            int pageSize = 50;
             int pageNumber = (page ?? 1);
             breweries = breweries.ToPagedList(pageNumber, pageSize);
 
@@ -153,67 +153,105 @@ namespace Demo_Nmm_Xml.Controllers
         }
 
         // GET: Brewery/Create
+        [HttpGet]
         public ActionResult Create()
         {
+
             return View();
         }
 
         // POST: Brewery/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Brewery brewery)
         {
             try
             {
-                // TODO: Add insert logic here
+                BreweryRepository breweryRepository = new BreweryRepository();
+
+                using (breweryRepository)
+                {
+                    breweryRepository.Insert(brewery);
+                }
 
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TODO: Add view for error message
                 return View();
             }
         }
 
         // GET: Brewery/Edit/5
+        [HttpGet]
         public ActionResult Edit(int id)
         {
-            return View();
+            BreweryRepository breweryRepository = new BreweryRepository();
+            Brewery brewery = new Brewery();
+
+            using (breweryRepository)
+            {
+                brewery = breweryRepository.SelectOne(id);
+            }
+
+            return View(brewery);
         }
 
         // POST: Brewery/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Brewery brewery)
         {
             try
             {
-                // TODO: Add update logic here
+                BreweryRepository breweryRepository = new BreweryRepository();
+
+                using (breweryRepository)
+                {
+                    breweryRepository.Update(brewery);
+                }
 
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TODO: Add view for error message
                 return View();
             }
         }
 
         // GET: Brewery/Delete/5
+        [HttpGet]
         public ActionResult Delete(int id)
         {
-            return View();
+            BreweryRepository breweryRepository = new BreweryRepository();
+            Brewery brewery = new Brewery();
+
+            using (breweryRepository)
+            {
+                brewery = breweryRepository.SelectOne(id);
+            }
+
+            return View(brewery);
         }
 
         // POST: Brewery/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, Brewery brewery)
         {
             try
             {
-                // TODO: Add delete logic here
+                BreweryRepository breweryRepository = new BreweryRepository();
 
+                using (breweryRepository)
+                {
+                    breweryRepository.Delete(id);
+                }
+                
                 return RedirectToAction("Index");
             }
             catch
             {
+                // TODO: Add view for error message
                 return View();
             }
         }

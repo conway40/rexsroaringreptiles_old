@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.NoPercistence", "Demo_Nmm_Xml.NoPercistence\Demo_Nmm_Xml.NoPercistence.csproj", "{27407E51-87D9-472A-9297-D831715AA1E7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml.Percistence", "Demo_Nmm_Xml.Percistence\Demo_Nmm_Xml.Percistence.csproj", "{B85D592A-8B8A-47C1-A67A-4198A4664DB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Nmm_Xml", "Demo_Nmm_Xml\Demo_Nmm_Xml.csproj", "{770EC3EB-79EC-45A2-85DD-2171602D9909}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{27407E51-87D9-472A-9297-D831715AA1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27407E51-87D9-472A-9297-D831715AA1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27407E51-87D9-472A-9297-D831715AA1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27407E51-87D9-472A-9297-D831715AA1E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B85D592A-8B8A-47C1-A67A-4198A4664DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B85D592A-8B8A-47C1-A67A-4198A4664DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85D592A-8B8A-47C1-A67A-4198A4664DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU

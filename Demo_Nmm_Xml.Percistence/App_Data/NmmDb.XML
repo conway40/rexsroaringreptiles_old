@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Breweries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Brewery>
-    <Id>1</Id>
-    <Name>Acoustic Tap Room</Name>
-    <Address>119 Maple St</Address>
-    <City>Traverse City</City>
-    <State>MI</State>
-    <Zip>49684</Zip>
-    <Phone>(231) 883-2012</Phone>
-    <URL>drinkacoustic.com</URL>
-  </Brewery>
-  <Brewery>
     <Id>2</Id>
     <Name>Beggars Brewery</Name>
     <Address>4177 Village Park Dr. Suite C</Address>
@@ -209,5 +199,15 @@
     <Zip>49650</Zip>
     <Phone>(231) 640-2327</Phone>
     <URL>lakeannbrewing.com</URL>
+  </Brewery>
+  <Brewery>
+    <Id>1</Id>
+    <Name>Acoustic Tap Room</Name>
+    <Address>119 Maple St</Address>
+    <City>Traverse City</City>
+    <State>MI</State>
+    <Zip>49684</Zip>
+    <Phone>(231) 883-2012</Phone>
+    <URL>drinkacoustic.com</URL>
   </Brewery>
 </Breweries>
